@@ -159,6 +159,7 @@ align-items: center;
         min-width: auto;
         max-width: 300px;
         width: 80%;
+        height: 450px;
     }
     .zaglavlje{
         padding: 20px;
