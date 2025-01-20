@@ -1,0 +1,253 @@
+#section1{
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    min-height: 500px;
+    gap: 50px;
+    font-family: 'Quicksand';
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+    color: #003566;
+}
+#naslovsekcije{
+    font-size: 64px;
+    font-weight: bold;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#podsekcija{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#podsekcija p{
+    font-size: 50px;
+    font-weight: 500;
+    flex: 1;
+}
+
+
+#section2{
+padding: 50px;
+min-height: 800px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#ponuda{
+    min-height: 600px;
+    width: 80%;
+    max-width: 1250px;
+}
+#kartice, #karticeMini{
+    background-color: #4fc3f7;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    border-top-left-radius: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.dugme{
+    background-color: rgba(79, 195, 247, 0.5);
+    font-family: 'Quicksand';
+    font-size: 30px;
+    border: none;
+    color: #003566;
+    font-weight: 700;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 200px;
+    height: 50px;
+    box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
+    margin-right: 10px;
+    cursor: pointer;
+}
+.active{
+    background-color: #4fc3f7;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.card{
+    height: 500px;
+    background-color: rgba(240, 240, 240, 0.5);
+    width: 30%;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    min-width: 300px;
+    font-family: 'Quicksand';
+    color: #003566;
+    box-sizing: border-box;
+}
+.zaglavlje{
+    height: 150px;
+    background-color: rgba(240, 240, 240, 0.75);
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 25px;
+    box-sizing: border-box;
+    font-size: 40px;
+    font-weight: 500;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+    padding: 25px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.card button{
+    background-color: #003566;
+    border: none;
+    color: #ffffff;
+    font-family: 'Quicksand';
+    font-size: 30px;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 25px;
+    cursor: pointer;
+}
+
+  
+  .usluge {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+  }
+#karticeMini {
+    display: none;
+}
+@media (max-width: 1050px){
+    .poruci{
+        font-weight: 500 !important;
+        margin: 20px!important;
+    }
+    #podsekcija p{
+        display: none;
+        
+    }
+    #section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+    #naslovsekcije{
+        font-size: 40px;
+        
+    }
+    .card{
+        min-width: 250px;
+        
+    }
+    .zaglavlje{
+        padding: 20px;
+    }
+    .info{
+        padding: 20px;
+    }
+    #podsekcija img{
+        width: 100%;
+        height: auto;
+    }
+    #podsekcija{
+        align-items: center;
+        justify-content: center;
+        margin: 30px;
+    }
+    #section2{
+        padding:0;
+        min-height: 100%;
+    }
+    #ponuda{
+        width: 100%;
+    }
+    .dugme{
+        width: 30%;
+        font-size: 25px;
+        margin: 0;
+        font-weight: 500;
+    }
+    #kartice{
+        display: none;
+    }
+    #karticeMini{
+        display: flex;
+        border-radius: 0;
+        padding: 50px 0;
+    }
+    #left, #right{
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+      }
+    .two, .three{
+        display: none
+      }
+      button{
+        background-color: transparent;
+        border: none;
+      }
+    #dugmici{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    
+        .kartica {
+            width: 80%;
+            max-width: 300px; 
+            height: 450px; 
+        }
+        .zaglavlje p{
+            font-size: 40px;
+        }
+        .zaglavlje img{
+            width: 40px;
+            height: auto;
+        }
+        .zaglavlje{
+            height: 150px;
+            margin-bottom: 10px;
+        }
+    
+        .infopaketa {
+            font-size: 20px; 
+            width: 250px; 
+        }
+    
+
+    #naslovsekcije {
+        font-size: 30px;
+        text-shadow: none;
+    }
+
+    }
+    #left img, #right img{
+        height: 50px;
+      }
+      #left, #right{
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+      }
+      

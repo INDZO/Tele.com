@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url(./fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+#section1{
+    background-image: url(./images/uslugesekcija1.png);
+    height: 708px;
+    background-size: cover;
+    background-position: center;
+    }
+
+#section1 p{
+    font-family: 'Quicksand';
+    color: #ffffff;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    width: 340px;
+    font-size: 64px;
+    padding-top: 250px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+#usluge{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    gap: 50px;
+}
+
+.usluga{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.usluga-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #003566;
+    font-family: 'Quicksand';
+    min-width: 350px;
+    max-width: 1000px;
+}
+.usluga-text h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.usluga-text p{
+    font-size: 30px;
+}
+.usluga img{
+margin: auto;
+}
+@media (max-width: 1050px) {
+    .usluga-text h1 {
+        font-size: 30px;
+    }
+
+    .usluga-text p {
+        font-size: 15px; 
+    }
+    #usluge{
+        padding: 0%;
+        padding: 30px;
+    }
+    .usluga img {
+        max-width: 90%;
+        height: auto;
+        margin: 0 auto; 
+    }
+
+    #section1 {
+        background: #4fc3f7; 
+        height: 100px; 
+        display: flex;
+        align-items: center; 
+        padding-left: 30px;
+    }
+
+    #section1 p {
+        font-size: 30px;
+        color: #ffffff; 
+        margin: 0; 
+        width: 100%; 
+        padding: 0;
+        text-shadow: none;
+        font-weight: 500;
+    }
+}

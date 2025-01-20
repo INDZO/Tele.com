@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma za registraciju</title>
+    <link
+    rel="shortcut icon"
+    href="./images/favicon.ico"
+    type="image/x-icon"
+  />
+</head>
+<body>
+    <div id="form-container">
+        <h1>Forma za registraciju namenjena adminu</h1>
+        <form id="user-form">
+            <label for="username">Korisničko ime:</label>
+            <input type="text" id="username" name="username" required>
+            <br><br>
+
+            <label for="password">Lozinka:</label>
+            <input type="password" id="password" name="password" required>
+            <br><br>
+
+            <label for="package">Odaberite paket:</label>
+            <select id="package" name="package" required>
+                <option value="solo">SOLO</option>
+                <option value="duo">DUO</option>
+                <option value="trio">TRIO</option>
+            </select>
+            <br><br>
+
+            <label for="type">Odaberite tip paketa:</label>
+            <select id="type" name="type" required>
+                <option value="starter">Starter</option>
+                <option value="plus">Plus</option>
+                <option value="premium">Premium</option>
+            </select>
+            <br><br>
+
+            <button type="button" id="submit-button">Dodaj korisnika</button>
+        </form>
+    </div>
+
+    <div id="json-container" style="display:none;">
+        <h1>Kopirajte JSON kod i nalepite u svoj json file</h1>
+        <pre id="json-output"></pre>
+        <button id="back-button">Nazad na formu</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jssha/dist/sha.js"></script>
+    <script src="./dodajKorisnika.js"></script>
+</body>
+</html>

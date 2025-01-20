@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TeleCom</title>
+    <link rel="stylesheet" href="account.css">
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="shortcut icon"
+    href="./images/favicon.ico"
+    type="image/x-icon"
+  />
+</head>
+<body>
+        <div id="google_translate_element"></div>
+    <a href="index.html"><img src="./images/logoprofil.png" alt="" height="75px" id="logo" style="filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));"></a>
+    <a href="./login.html" id="profil">
+        <button id="ime"><img src="./images/ikonicaacc.png" alt="" height="30px" style="margin-right: 5px;"><p id="username">Inas Hamzagic</p></button>
+        <button id="logout"><img src="./images/out.png" alt="" height="25px" style="margin-right: 5px;">Log Out</button>
+    </a>
+
+    <main>
+        <div id="sekcijalevo">
+            <p id="nazivpaketa">TRIO Premium</p>
+            <div id="usluge">
+                <div class="usluga" ><img src="./images/wifi.png" alt="" height="75px"><p id="wifi">Brzina: 1Gbps</p></div>
+                <div class="usluga" id="televizija"><img src="./images/tv.png" alt="" height="75px"><p id="tv">TV kanali: 1000</p></div>
+                <div class="usluga" id="telefonija"><img src="./images/telefon.png" alt="" height="75px"><p id="phone">Minuti: Neograničeno</p></div>
+            </div>
+        </div>
+
+        <div id="sekcijadesno">
+            <p id="racun">Računi:</p>
+            <div>
+                <div id="racuni">
+                    <div class="racuni"><p>Decembar:</p><p class="cena">3,999 RSD</p></div>
+                    <hr>
+                    <div class="racuni"><p>Novembar:</p><p class="cena">3,999 RSD</p></div>
+                    <hr>
+                    <div class="racuni"><p>Oktobar:</p><p class="cena">3,999 RSD</p></div>
+                    <hr>
+                    <div class="racuni"><p>Septembar:</p><p class="cena">3,999 RSD</p></div>
+                    <hr>
+                    <div class="racuni"><p>Avgust:</p><p class="cena">3,999 RSD</p></div>
+                    <hr>
+                    <div class="racuni"><p>Jul:</p><p class="cena">3,999 RSD</p></div>
+                    <hr>
+                    <div class="racuni"><p>Jun:</p><p class="cena">3,999 RSD</p></div>
+                    <hr>
+                    <div class="racuni"><p>Maj:</p><p class="cena">3,999 RSD</p></div>
+                    <hr>
+                    <div class="racuni"><p>April:</p><p class="cena">3,999 RSD</p></div>
+                    <hr>
+                    <div class="racuni"><p>Mart:</p><p class="cena">3,999 RSD</p></div>
+                    <hr>
+                    <div class="racuni"><p>Februar:</p><p class="cena">3,999 RSD</p></div>
+                    <hr>
+                    <div class="racuni"><p>Januar:</p><p class="cena">3,999 RSD</p></div>
+                    <hr>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+          pageLanguage: 'sr',
+          includedLanguages: 'en',
+          layout: google.translate.TranslateElement.InlineLayout.SIMPLE 
+        }, 'google_translate_element');
+      }
+    </script>
+
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" async defer></script>
+
+    <script src="./account.js"></script>
+</body>
+</html>

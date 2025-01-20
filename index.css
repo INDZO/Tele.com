@@ -1,0 +1,324 @@
+#section1{
+    background-image: url(./images/home\ slika\ 1.png);
+    height: 789px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    }
+    #section1 p{
+        font-family: 'Quicksand';
+        font-size: 50px;
+        color: #ffffff;
+        text-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+        width: 640px;
+        font-size: 64px;
+        padding-top: 150px;
+        margin-left: 200px;
+        font-weight: bold;
+    }
+    #section1 button{
+        font-family: 'Quicksand';
+        background-color: #f0f0f0;
+        color: #003566;
+        border: none;
+        text-align: center;
+        cursor: pointer;
+        font-weight: bold;
+        width: 350px;
+        height: 75px;
+        margin-left: 200px;
+        font-size: 35px;
+        border-radius: 25px;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+        margin-top: 105px;
+    }
+    #section2{
+        background-color: #f0f0f0;
+        min-height: 789px;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        gap: 50px;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 50px;
+        box-sizing: border-box;
+    }
+    
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 100px;
+        font-family: 'Quicksand';
+        color: #003566;
+        width: 350px;
+        text-align: center;
+    }
+    .card img{
+        height: 150px;
+        filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.5));
+    }
+    .naslovkartice{
+        font-size: 50px;
+        font-weight: 500;
+    }
+    .textkartica{
+        font-size: 30px;
+        width: 300px;
+    }
+    #section3, #section3Mini{
+        background: #4fc3f7;
+        min-height: 789px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    #boxpaketi{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 50px;
+        min-height: 627px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        flex-wrap: wrap;
+    }
+    .kartica{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        width: 425px;
+        height: 550px;
+        font-family: 'Quicksand';
+        color: #003566;
+        text-align: center;
+        background-color: rgba(240, 240, 240, 0.5);
+        border-radius: 25px;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    }
+    #paketinaslov{
+        font-size: 50px;
+        font-family: 'Quicksand';
+        color: #ffffff;
+        text-shadow: none;
+    }
+    
+    .zaglavlje{
+    height: 176px;
+    background-color: rgba(240, 240, 240, 0.75);
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    }
+    .naslov{
+        font-size: 50px;
+        font-weight: bold;
+        text-shadow: none;
+        margin: 20px;
+    }
+    .infopaketa{
+        font-size: 30px;
+        font-weight: 500;
+        width: 350px;
+    }
+    .detaljnije{
+        font-size: 30px;
+        font-family: 'Quicksand';
+        font-weight: bold;
+        background-color: #003566;
+        border: none;
+        color: #ffffff;
+        height: 66px;
+        width: 200px;
+        border-radius: 25px;
+        cursor: pointer;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    }
+    .kartica a{
+        margin-top: auto;
+        margin-bottom: 20px;
+    }
+    #section4{
+        background-color: #f0f0f0;
+        min-height: 789px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        flex-wrap: wrap;
+        padding: 50px;
+        box-sizing: border-box;
+    }
+    #mojtelecom{
+    padding-left: 125px;
+    }
+    #mojtelecom h1{
+        font-size: 50px;
+        font-family: 'quicksand';
+        font-weight: bold;
+        color: #003566;
+        text-shadow: none;
+        margin: 50px 0;
+    }
+    #mojtelecom p, li{
+        font-size: 30px;
+        font-family: 'quicksand';
+        color: #003566;
+        width: 500px;
+    }
+    
+    #mojtelecom li{
+        font-weight: bold;
+        margin-left: 25px;
+        padding: 0px;
+    }
+    #mojtelecom button{
+        background-color: #4fc3f7;
+        border: none;
+        color: #ffffff;
+        width: 250px;
+        height: 60px;
+        font-size: 30px;
+        font-family: 'quicksand';
+        text-align: center;
+        cursor: pointer;
+        border-radius: 25px;
+        margin: 50px 0;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    }
+    #section3Mini{
+        display: none;
+    }
+    @media (max-width: 1050px) {
+        #section1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 150px;
+        }
+        .detaljnije{
+            font-size: 25px;
+            font-weight: 500px;
+        }
+        #section3{
+            display: none;
+        }
+        #section3Mini{
+            display: flex;
+        }
+        #section1 p {
+            font-size: 40px; 
+            padding: 0;
+            margin: 0;
+            width: 80%;
+            text-align: center;
+            text-shadow: 0 4 2 black;
+        }
+    
+        #section1 button {
+            width: 250px; 
+            height: 60px; 
+            font-size: 25px;
+            margin: 0px;
+            font-weight: 500;
+        }
+    
+        #section1 {
+            background-position: calc(100% + 550px) center;
+        }
+        #section2{
+            padding: 20px 0;
+        }
+    
+        #paketinaslov {
+            font-size: 30px;
+        }
+    
+        #boxpaketi {
+            gap: 30px; 
+        }
+    
+        .kartica {
+            width: 80%;
+            max-width: 300px; 
+            height: 450px; 
+        }
+        .zaglavlje p{
+            font-size: 40px;
+        }
+        .zaglavlje img{
+            width: 40px;
+            height: auto;
+        }
+        .zaglavlje{
+            height: 150px;
+            margin-bottom: 10px;
+        }
+    
+        .infopaketa {
+            font-size: 20px; 
+            width: 85%; 
+        }
+    
+        #section4 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0;
+            margin: 0;
+            min-height: 500px;
+        }
+    
+        #mojtelecom {
+            padding: 0;
+            margin: 0;
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        #mojtelecom h1 {
+            font-size: 40px; 
+            text-align: center;
+        }
+    
+        #mojtelecom p, li {
+            font-size: 20px; 
+            width: 90%;
+            text-align: center;
+        }
+    
+        #mojtelecom li {
+            margin-left: 20px; 
+        }
+    
+        #mojtelecom button {
+            width: 220px; 
+            height: 50px; 
+            font-size: 25px; 
+        }
+    
+        #slika {
+            display: none;
+        }
+    }
+    #left img, #right img{
+        height: 50px;
+      }
+      #left, #right{
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+      }
+      

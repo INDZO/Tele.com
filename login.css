@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url(./fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0;
+}
+main{
+    background-image: url(./images/loginpozadina.png);
+    min-height: 1080px;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+#logo{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+#forma{
+    position: absolute;
+    top: 156px;
+    left: 12%;
+    height: 750px;
+    width: 823px;
+    background-color: rgba(255, 255, 255, 0.75 );
+    border-radius: 25px;
+    box-shadow:  0 4px 4px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Quicksand';
+    color: #003566;
+    padding: 50px;
+    box-sizing: border-box;
+}
+#forma h1{
+    font-size: 43px;
+    font-weight: 500;
+}
+#forma div{
+    display: flex;
+    flex-direction: column;
+}
+#forma div label{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+#forma div input{
+    margin-bottom: 20px;
+    height: 80px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    padding-left: 20px;
+}
+#forma div input:focus{
+    outline: 2px solid #003566;
+}
+#forma div input:hover{
+    box-shadow: 0 4px 4px #4fc3f7;
+}
+button{
+    background-color: #4fc3f7;
+    border: none;
+    color: #ffffff;
+    width: 250px;
+    height: 80px;
+    font-size: 30px;
+    font-family: 'quicksand';
+    text-align: center;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-top: 50px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+
+
+@media (max-width: 1050px){
+#forma{
+    width: 90%;
+    left: 5%;
+    padding: 20px;
+    height: 600px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#forma h1{
+    font-size: 40px;
+}
+#forma div label{
+    font-size: 30px;
+}
+#forma div input{
+    height: 60px;
+    font-size: 16px;
+}
+button{
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+}
+#logo{
+left: 15px;
+height: 45px;
+}
+main{
+    background-position: calc(100% + 300px) center;
+}
+}

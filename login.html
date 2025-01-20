@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="shortcut icon"
+    href="./images/favicon.ico"
+    type="image/x-icon"
+  />
+    <title>TeleCom</title>
+
+</head>
+<body>
+        <div id="google_translate_element"></div>
+    <main>
+        <a href="index.html"><img src="./images/logologin.png" alt="" height="50px" id="logo"></a>
+        <div id="forma">
+            <h1>Ulogujte se na Vaš Tele.com nalog:</h1>
+            <div>
+                <label for="username">Korisničko ime:</label>
+                <input type="text" id="username">
+                <span id="empty-username" style="color: red; display: none; font-size: 25px;">Niste uneli korisničko ime!</span>
+                <span id="username-error" style="color: red; display: none; font-size: 25px;">Pogrešno korisničko ime!</span>
+            </div>
+
+            <div style="position: relative;">
+                <label for="password">Lozinka:</label>
+                <input type="password" id="password" style="padding-right: 50px;">
+                <button type="button" id="toggle-password" 
+                    style="position: absolute; right: 0px;  background: none; border: none; cursor: pointer; box-shadow: none; width: 100px;">
+                    👁️
+                </button>
+                <span id="empty-password" style="color: red; display: none; font-size: 25px;">Niste uneli lozinku!</span>
+                <span id="password-error" style="color: red; display: none; font-size: 25px;">Pogrešna lozinka!</span>
+            </div>
+            
+            <a href="#">
+                <button type="submit" id="login-btn">Uloguj se <img src="./images/login.png" alt="" width="20px"></button>
+            </a>
+        </div>
+    </main>
+    
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+          pageLanguage: 'sr',
+          includedLanguages: 'en',
+          layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+        }, 'google_translate_element');
+      }
+    </script>
+
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" async defer></script>
+
+    <script src="login.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jssha/dist/sha.js"></script>
+</body>
+</html>
